@@ -21,8 +21,8 @@ function linkAction(){
 }
 navLink.forEach(n=>n.addEventListener('click', linkAction))
 
-function showPdfList() {
-    const pdfList = document.getElementById('pdfList');
+function showPlatformList() {
+    const pdfList = document.getElementById('platformList');
     if (pdfList) {
         pdfList.style.display = (pdfList.style.display === 'none') ? 'block' : 'none';
     }
