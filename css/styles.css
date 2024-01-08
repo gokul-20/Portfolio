@@ -188,10 +188,6 @@ img{
     color: var(--second-color);
 }
 
-.home_social-icon:hover{
-    color: var(--first-color);
-}
-
 .home_img{
     position: absolute;
     right: 0;
@@ -365,14 +361,13 @@ img{
     align-items: center;
     position: relative;
     font-weight: var(--font-semi);
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 25px rgba(14,36,49,0.15);
+    border-radius: 0.5rem;,
 }
 
 .certificate_icon{
     font-size: 2rem;
     margin-right: var(--mb-2);
-    color: white;
+    color:var(--gradient-color);
 }
 
 .certificates_name{
@@ -387,18 +382,18 @@ img{
 }
 .certificate_button{
     display:inline-block;
-    color: #fff;
+    color:var(--gradient-color);
     padding: .75rem 1.5rem;
     font-weight: var(--font-semi);
-    border-radius: 0.5rem;
-    background: var(--gradient-color);
+    border-radius: 10rem;
+    background: var(white);
 }
 
 .prepinsta_button{
     display:inline-block;
-    color: #fff;
+    color:var(--first-color);
     padding: .75rem 1.5rem;
     font-weight: var(--font-semi);
     border-radius: 0.5rem;
-    background: var(--gradient-color);
+    background: white;
 }
