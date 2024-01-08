@@ -27,3 +27,12 @@ function showPlatformList() {
         pdfList.style.display = (pdfList.style.display === 'none') ? 'block' : 'none';
     }
 }
+
+
+function showPDFList() {
+    const pdfList = document.getElementById('pdfList');
+  
+    // Toggle the visibility of the pdfList
+    pdfList.classList.toggle('hidden');
+  }
+  

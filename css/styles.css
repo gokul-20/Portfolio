@@ -395,5 +395,11 @@ img{
     padding: .75rem 1.5rem;
     font-weight: var(--font-semi);
     border-radius: 0.5rem;
-    background: white;
+    background: var(--second-color);
 }
+
+.hidden {
+    display: none;
+  }
+  
+  
